@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>mvcselect</Title>
+			<Shortcut>mvcselect</Shortcut>
+			<Description>Code snippet for createing SelectList properties for views.</Description>
+			<Author>Gareth</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>capitalmodel</ID>
+					<ToolTip>Model Name (Public Case)</ToolTip>
+					<Default>ModelName</Default>
+				</Literal>
+				<Literal>
+					<ID>lowermodel</ID>
+					<ToolTip>Model Name (Private Case)</ToolTip>
+					<Default>modelName</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+        <![CDATA[#region $capitalmodel$ (Select)
+        private readonly List<$capitalmodel$> $lowermodel$s;
+
+        [Display(Name = "$capitalmodel$")]
+        public int Selected$capitalmodel$Id { get; set; }
+        public IEnumerable<SelectListItem> $capitalmodel$Items
+        {
+            get
+            {
+                var all$capitalmodel$s = $lowermodel$s.Select(g => new SelectListItem
+                {
+                    Value = g.Id.ToString(),
+                    Text = g.Description
+                });
+                return all$capitalmodel$s;
+            }
+        }
+        #endregion]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
