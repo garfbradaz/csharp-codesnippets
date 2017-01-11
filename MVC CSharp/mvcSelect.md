@@ -1,6 +1,6 @@
 # mvcSelect
 
-**Note:** - I have created a code snippet based off Scott Allens [blog post](http://odetocode.com/blogs/scott/archive/2013/03/11/dropdownlistfor-with-asp-net-mvc.aspx). Check it out.
+**Note:** - I have created a code snippet based off Scott Allens <a href="http://odetocode.com/blogs/scott/archive/2013/03/11/dropdownlistfor-with-asp-net-mvc.aspx" target="_blank">blog post</a>. Check it out.
 
 ## Usage:
 
