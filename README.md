@@ -2,4 +2,4 @@
 My Code Snippets - C#
 
 ## MVC
-1. [mvcSelect](../blob/master/MVC CSharp/mvcSelect.md)
+1. [mvcSelect](../master/MVC CSharp/mvcSelect.md)
