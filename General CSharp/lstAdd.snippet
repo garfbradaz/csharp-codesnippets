@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>lstadd</Title>
+			<Shortcut>lstadd</Shortcut>
+			<Description>Code snippet for creating a nice List.Add(new {yourobject});</Description>
+			<Author>Gareth Bradley (garfbradaz)</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>listname</ID>
+					<ToolTip>List Name to use.</ToolTip>
+					<Default>ListName</Default>
+				</Literal>
+				<Literal>
+					<ID>objname</ID>
+					<ToolTip>Object to new in List</ToolTip>
+					<Default>objToNew</Default>
+				</Literal>
+				<Literal>
+					<ID>propname</ID>
+					<ToolTip>Properties to fill (if any)</ToolTip>
+					<Default>/**/</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+				<![CDATA[$listname$.Add(
+				new $objname$ {$propname$}
+				);]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
