@@ -2,6 +2,8 @@
 
 Currently this repository is only for C# snippets for Visual Studio. They can be for any framework though, for example we have ASP.NET MVC C# snippets.
 
+### If you need to log an issue, search first to make sure it hasnt been logged previously.
+
 ## New Snippets - Requests
 
 If you want to just request a new Snippet then please just log an [Issue](https://github.com/garfbradaz/csharp-codesnippets/issues/new), detailing:
