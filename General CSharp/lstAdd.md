@@ -1,7 +1,5 @@
 # lstAdd
 
-**Note:** - I have created a code snippet based off Scott Allens <a href="http://odetocode.com/blogs/scott/archive/2013/03/11/dropdownlistfor-with-asp-net-mvc.aspx" target="_blank">blog post</a>. Check it out.
-
 ## Usage:
 
 To allow you to quickly create a `List.Add(new object {})` for when you have lines of them to create. A good example is when you are creating a functioning to seed some data.
