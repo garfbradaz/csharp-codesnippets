@@ -19,5 +19,9 @@ Now contray to what my wife says, I'm not perfect, so if you find a *bug* then p
 - Log an [Issue](https://github.com/garfbradaz/csharp-codesnippets/issues/new).
 - Complete the suggested details and more if you have it.
 
+## Creating your own Snippets
+
+Feel free to create your own snippets and publish to these to the Github here. Please have a good read on our Wiki for Coding Standards and [Snippet Formatting](https://github.com/garfbradaz/csharp-codesnippets/wiki/Snippet-Formatting).
+
 
 
